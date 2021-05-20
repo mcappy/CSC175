@@ -43,7 +43,3 @@ connection.on('data', (data) => {
 connection.on('end', () => {
   console.log('disconnected from server');
 });
-
-function onConnect() {
-
-}

@@ -7,7 +7,7 @@ server.listen({
 })
 
 server.on('connection', (connection) => {
-  //console.log("Someone connected")
+  console.log("Someone connected")
   //connection.write(Buffer.from("Hello", 'utf8'))
   sockets.push(connection);
   connection.on('data', (data) => {
